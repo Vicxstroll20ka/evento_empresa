@@ -1,1 +1,25 @@
-body {background:cyan;}
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {margin:0; padding:0;}
+
+body {background:#B9EFF6;}
+
+
+nav {width: 100%; background:green; overflow:hidden; position:fixed}
+nav ul {list-style:none; margin: 0}
+nav ul li {float:left;width: 16.6666666666%}
+nav ul li a {padding:20px 20px; display:block; color:#000000; min-width:10%;font-family: 'Montserrat', sans-serif;}
+nav ul li a:hover {background:#00FF00; }
+
+header, section, footer {width:90%; margin:0px auto; max-width:1000px;}
+
+.logoUnison {height:200px; width:200px; position:fixed; right:130px; top:190px;}
+
+.caja1 {background:#114AB3; color:#fff; margin:5% 0px; border:2px solid #fff;}
+
+.caja1 {padding:5% 10%; text-align:center;}
+
+.caja2 {background:#114AB3; border:2px solid #fff; color:#fff;}
+
+div, h1 {padding:10px 10px;}
+
+p {margin:10px 10px;}
