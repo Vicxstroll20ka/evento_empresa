@@ -19,6 +19,7 @@ nav ul li a:hover {background:#00FF00; }
 .caja1 {padding:5% 10%; text-align:center;}
 
 .caja2 {background:#05fe7e; border:2px solid #fff; color:#fff;}
+.caja2 {display:grid; grid-template-columns: auto auto auto;}
 
 div, h1 {padding:10px 10px;}
 
