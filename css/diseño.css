@@ -20,7 +20,8 @@ nav ul li a:hover {background:#00FF00; }
 
 .caja2 {background:#05fe7e; border:2px solid #fff; color:#fff;}
 .caja2 {display:grid; grid-template-columns: auto auto auto; padding:100px;}
-.caja2 .a{background:red;}
+.caja2 img {position:relative; left:150px;}
+.caja2 p {text-align:center; color:#000000;}
 
 h1 {text-align:center;}
 
