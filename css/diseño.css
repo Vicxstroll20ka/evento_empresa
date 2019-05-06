@@ -18,10 +18,20 @@ nav ul li a:hover {background:#00FF00; }
 
 .caja1 {padding:5% 10%; text-align:center;}
 
-.caja2 {background:#05fe7e; border:2px solid #fff; color:#fff;}
+.A {background:#05fe7e;}
 .caja2 {display:grid; grid-template-columns: auto auto auto; padding:100px;}
-.caja2 img {position:relative; left:150px;}
+.caja2 img {position:relative; left:150px; border:2px solid grey; box-shadow:0px 0px 10px black;}
 .caja2 p {text-align:center; color:#000000;}
+
+
+.caja3 {background:#072EBF; color:#fff; border:2px solid #fff;}
+.caja3 h1 {text-align:center; border:2px solid #fff;}
+.caja3 table div  {color:#fff; margin:0px 80px; border:2px solid #fff; padding:20px 80px;}
+.caja3 .tabla {text-align:center; border:2px solid #fff;}
+.cajaD {display:grid; grid-template-columns: auto auto auto; }
+.cajaD div {border:2px solid #fff;}
+.cajaD .Ho, .Co, .Ta {background:#2852F0; text-align:center;}
+.cajaD .d {display:grid; grid-template-columns: auto auto auto;}
 
 h1 {text-align:center;}
 
