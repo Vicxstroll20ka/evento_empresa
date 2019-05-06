@@ -4,7 +4,7 @@
 body {background:#B9EFF6;}
 
 
-nav {width: 100%; background:green; overflow:hidden; position:fixed; opacity: 0.9}
+nav {width: 100%; background:green; overflow:hidden; position:relative; opacity: 0.9}
 nav ul {list-style:none; margin: 0}
 nav ul li {float:left;width: 16.6666666666%}
 nav ul li a {padding:20px 20px; display:block; color:#000000; min-width:10%;font-family: 'Montserrat', sans-serif;}
