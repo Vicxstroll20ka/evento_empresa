@@ -10,26 +10,24 @@ nav ul li {float:left;width: 16.6666666666%}
 nav ul li a {padding:20px 20px; display:block; color:#000000; min-width:10%;font-family: 'Montserrat', sans-serif;}
 nav ul li a:hover {background:#00FF00; }
 
-.Imagen1 {width: 100%; height: auto;}
+.ImagenEvento {width: 100%; height: auto;}
+.fecha {background:#05fe7e; color:#fff; margin:5% 0px; border:2px solid #fff;padding:5% 10%; text-align:center;font-family: 'Montserrat'}
+.A {background:#05fe7e;font-family: 'Montserrat';}
 
-.caja1 {background:#05fe7e; color:#fff; margin:5% 0px; border:2px solid #fff;font-family: 'Montserrat'}
-
-.caja1 {padding:5% 10%; text-align:center;}
-
-.A {background:#05fe7e;font-family: 'Montserrat'}
 .caja2 {display:grid; grid-template-columns: auto auto auto; justify-content: space-evenly;}
 .caja2 img {border:2px solid grey;width: 70%; box-shadow:0px 0px 10px black; margin-left: 15%; margin-right: 15%;}
 .caja2 p {text-align:center; color:#000000;}
 
-
-.caja3 {background:#072EBF; color:#fff; border:2px solid #fff;font-family: 'Montserrat'}
+.caja3 {background:#072EBF; color:#fff; border:2px solid #fff;}
 .caja3 h1 {text-align:center; border:2px solid #fff;}
-.caja3 table div  {color:#fff; border:2px solid #fff; padding:20px 80px;}
-.caja3 .tabla {text-align:center; border:2px solid #fff;}
-.cajaD {display:grid; grid-template-columns: auto auto auto; }
+.caja3 table div {color:#fff; border:2px solid #fff; padding:20px 80px;}
+.caja3 NavDias {}
+
+.cajaD {display:grid; grid-template-columns: auto auto auto;}
 .cajaD div {border:2px solid #fff;}
-.cajaD .Ho, .Co, .Ta {background:#2852F0; text-align:center;}
-.cajaD .d {display:grid; grid-template-columns: auto auto auto;}
+.cajaD .Ho, .Co, .Ta {background:#2852F0; text-align:center; font-family: 'Montserrat';}
+.cajaD .d {display:grid; grid-template-columns: auto auto auto; font-family: 'Montserrat';}
+.cajaD .horario {font-family: 'Montserrat';}
 
 h1 {text-align:center;}
 
