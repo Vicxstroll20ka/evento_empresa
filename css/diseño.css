@@ -4,24 +4,28 @@
 body {background:#B9EFF6;}
 
 
-nav {width: 100%; background:green; overflow:hidden; position:fixed;; opacity: 0.9}
-nav ul {list-style:none; margin: 0}
-nav ul li {float:left;width: 16.6666666666%}
-nav ul li a {padding:20px 20px; display:block; color:#000000; min-width:10%;font-family: 'Montserrat', sans-serif;}
-nav ul li a:hover {background:#00FF00; }
+nav {width: 100%; background:#1C9E02; overflow:hidden; position:fixed; opacity: 0.9;}
+nav ul {list-style:none; margin:0;}
+nav ul li {float:left; width: 16.6666666666%;}
+nav ul li a {padding:20px 20px; display:block; color:#fff; min-width:10%; font-family: 'Montserrat', sans-serif;}
+nav ul li a:hover {background:#23BB04;}
+
+.dias li {color:#fff; background:#072EBF; float:left; width: 18%; border:2px solid #fff; }
+.dias li {margin: 0% 0.49999% ; max-width: 20%; overflow:hidden;}
+.dia {color:#fff; background: #072EBF; padding: 10px 10px; width: 100%; text-align: center; font-family: 'Montserrat', sans-serif; display: inline-block;}
+.dia:active {background:#2852F0;}
 
 .ImagenEvento {width: 100%; height: auto;}
-.fecha {background:#05fe7e; color:#fff; margin:5% 0px; border:2px solid #fff;padding:5% 10%; text-align:center;font-family: 'Montserrat'}
-.A {background:#05fe7e;font-family: 'Montserrat';}
+.fecha {background:#05fe7e; color:#fff; margin:5% 0px; border:2px solid #fff; padding:5% 10%; text-align:center; font-family:'Montserrat';}
+.A {background:#05fe7e; font-family: 'Montserrat';}
 
-.caja2 {display:grid; grid-template-columns: auto auto auto; justify-content: space-evenly;}
-.caja2 img {border:2px solid grey;width: 70%; box-shadow:0px 0px 10px black; margin-left: 15%; margin-right: 15%;}
+.caja2 {display:grid; grid-template-columns:auto auto auto; justify-content:space-evenly;}
+.caja2 img {border:2px solid grey; width:70%; box-shadow:0px 0px 10px black; margin-left:15%; margin-right:15%;}
 .caja2 p {text-align:center; color:#000000;}
 
 .caja3 {background:#072EBF; color:#fff; border:2px solid #fff;}
 .caja3 h1 {text-align:center; border:2px solid #fff;}
 .caja3 table div {color:#fff; border:2px solid #fff; padding:20px 80px;}
-.caja3 NavDias {}
 
 .cajaD {display:grid; grid-template-columns: auto auto auto;}
 .cajaD div {border:2px solid #fff;}
