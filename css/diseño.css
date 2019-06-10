@@ -36,7 +36,6 @@ nav ul li a:hover {background:#23BB04;}
 .expositores {background: #6240FD; display: grid; grid-template-columns: auto auto auto auto; grid-gap: 1% 1%; border: 2px solid #fff;}
 .datos, .expo{overflow:hidden; float:left; max-width: 100%;}
 div img {border: 2px solid #DBDBDD; display: grid;}
-.datos {max-width: 100%;}
 
 h1 {text-align:center;}
 
