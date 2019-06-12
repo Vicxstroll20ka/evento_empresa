@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 * {margin:0; padding:0;}
 
-body {background:#B9EFF6;}
+body {background:#EEEDED;}
 
 
 nav {width: 100%; background:#1C9E02; overflow:hidden; position:fixed; opacity: 0.9;}
@@ -33,9 +33,11 @@ nav ul li a:hover {background:#23BB04;}
 .cajaD .d {display:grid; grid-template-columns: auto auto auto; font-family: 'Montserrat';}
 .cajaD .horario {font-family: 'Montserrat';}
 
-.expositores {background: #6240FD; display: grid; grid-template-columns: auto auto auto auto; grid-gap: 1% 1%; border: 2px solid #fff;}
-.datos, .expo{overflow:hidden; float:left; max-width: 100%;}
-div img {border: 2px solid #DBDBDD; display: grid;}
+.Exp {background: #D50720; border: 2px solid #D2CBCB;}
+.expositores {background: #6240FD; display: grid; grid-template-columns: auto auto auto auto; grid-gap: 1% 1%; border: 2px solid #fff; width: 100%;}
+.datos, .expo{overflow:hidden; float:left; max-width: 50%;}
+div img {border: 2px solid #DBDBDD;}
+div .TiEx {color: #fff;}
 
 h1 {text-align:center;}
 
