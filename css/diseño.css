@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-* {margin:0; padding:0;}
+* {margin:0; padding:0; font-family:'Montserrat';}
 
 body {background:#EEEDED;}
 
@@ -39,8 +39,14 @@ nav ul li a:hover {background:#23BB04;}
 div img {border: 2px solid #DBDBDD;}
 div .TiEx {color: #fff;}
 
+.Contacto {background: #0EDE53; border: 2px solid #0EAFDE; width: 100%; overflow:hidden; }
+.Contacto img {float: left;}
+.Contacto ul li {overflow:hidden; max-width: 100%;}
+
 h1 {text-align:center;}
 
 div, h1 {padding:10px 10px;}
+
+.footer {background: #000000; color: #fff;}
 
 p {margin:10px 10px;}
