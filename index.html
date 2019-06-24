@@ -281,24 +281,35 @@
 
 
     <form>
-      <label for="nombre">¿Eres alumno de la Unison?</label>
-      <input type="text"  id="nombre" placeholder="---">
+      <div><h2>Registrate.</h2></div>
+      <div><h5>Si quieres acceder al evento, deberas registrarte.</h5></div>
 
-    	<label for="nombre">Escribe tú nombre.</label>
-    	<input type="text"  id="nombre" placeholder="Nombre completo.">
+      <div><label for="alumno">¿Eres alumno de la Unison?
+        <input type="checkbox">Si.
+        <input type="checkbox">No.</label></div>
 
-    	<label for="email">¿Cuál es tu correo electrónico?</label>
-    	<input type="text" id="email" placeholder="aaaa@email.com">
-
-      <label for="nombre">¿Cuál es tu expediente? (opcional)</label>
-      <input type="text"  id="nombre" placeholder="a111111111">
-
-      <label for="nombre">En caso de no ser alumno de la Unison, ¿cuál es su Dependencia?</label>
-      <input type="text"  id="nombre" placeholder="---">
+        <div><label for="dependencia">En caso de no ser alumno de la Unison, ¿cuál es su dependencia?<br>Si eres alumno de la Unison, ignora la pregunta.</label>
+        <input type="text"  id="nombre" placeholder="---"></div>
 
 
-    	<label for="mensaje">Mensaje</label>
-    	<textarea  id="mensaje" placeholder="Ingresa tus datos."></textarea>
+    	<div><label for="nombre">Escribe tú nombre.</label>
+    	<input type="text"  id="nombre" placeholder="Nombre completo."></div>
+
+    	<div><label for="email">¿Cuál es tu correo electrónico?</label>
+    	<input type="text" id="email" placeholder="aaaa@email.com"></div>
+
+      <div><label for="expediente">¿Cuál es tu expediente?(opcional)</label>
+      <input type="text"  id="nombre" placeholder="a111111111" maxlength="10"></div>
+
+      <div><label for="sexo">Sexo:</label>
+    	<input type="checkbox">Hombre.
+      <input type="checkbox">Mujer.</div>
+
+      <div><label for="nombre">Edad:</label>
+      <input type="text"  id="nombre" placeholder="---" maxlength="3"></div>
+
+    	<div><label for="mensaje">¿Cómo te enteraste del evento?</label><br>
+    	<textarea  id="mensaje" placeholder="---"></textarea></div>
 
     	<input type="submit" value="Enviar">
     	</form>
