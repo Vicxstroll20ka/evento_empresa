@@ -17,7 +17,7 @@ nav ul li a {padding:20px 20px; display:block; text-decoration: none; color:#fff
 
   header nav ul li{display: block; float: none; border-bottom:1px solid rgba(255,255,255, .3); width: 100%;}
 
-  .menu_bar{display: block; width: 100%; background:#1C9E02; opacity: .95; position: fixed;}
+  .menu_bar{display: block; width: 100%; background:#7ebd89; opacity: .95; position: fixed;}
 
   .menu_bar .boton-menu{display: block; margin: 0px; padding: 20px; color:#fff;text-decoration: none;font-size: 25px; font-family: 'Montserrat'}
 
@@ -33,33 +33,37 @@ nav ul li a {padding:20px 20px; display:block; text-decoration: none; color:#fff
 
 .ImagenEvento {width: 100%; height: auto;}
 .fecha {background:#7ebd89; color:#fff; margin:5% 0px; border:2px solid #fff; padding:5% 10%; text-align:center; font-family:'Montserrat';}
-.A {background:#7ebd89; font-family: 'Montserrat';}
+.A {background:#7ebd89; font-family: 'Montserrat'; color:#fff;}
 
-.caja2 {display: grid; grid-template-columns:auto auto auto; justify-content:space-evenly;background: }
+.caja2 {display: grid; grid-template-columns:auto auto auto; justify-content:space-evenly; }
 .caja2 img {border:2px solid grey; width:70%; box-shadow:0px 0px 10px black; margin-left:15%; margin-right:15%;}
-.caja2 p {text-align:center; color:#000000;}
+.caja2 p {text-align:center;}
 
-.caja3 {background:#072EBF; color:#fff; border:2px solid #fff;}
+.caja3 {background:#897ebd; color:#fff; border:2px solid #fff;}
 .caja3 h1 {text-align:center; border:2px solid #fff;}
 .caja3 table div {color:#fff; border:2px solid #fff; padding:20px 80px;}
+.programa h1 {background: #6C6494;}
+input[ type="button"] {background: #6C6494;}
 
-.cajaD {display:grid; grid-template-columns: auto auto auto;}
+.cajaD {display:grid; grid-template-columns: auto auto auto; }
 .cajaD div {border:2px solid #fff;}
-.cajaD .Ho, .Co, .Ta {background:#2852F0; text-align:center; font-family: 'Montserrat';}
-.cajaD .d {display:grid; grid-template-columns: auto auto auto; font-family: 'Montserrat';}
-.cajaD .horario {font-family: 'Montserrat';}
+.cajaD .Ho, .Co, .Ta {background: #6C6494; text-align:center; font-family: 'Montserrat';}
+.cajaD .d {display:grid; grid-template-columns: auto auto auto; font-family: 'Montserrat';background: #6C6494;}
+.cajaD .horario {font-family: 'Montserrat'; background: #6C6494;}
 
 .Exp {background: #7ebd89; border: 2px solid #D2CBCB;}
-.expositores {background: #979797; display: grid; grid-template-columns: auto auto auto;}
+.expositores {background: #6C6494; display: grid; grid-template-columns: auto auto auto;}
 .datos, .expo{overflow:hidden; float:left; max-width: 50%;}
 div img {border: 2px solid #DBDBDD;}
 div .TiEx {color: #fff;}
 
-form {background:#979797; width: 55%; border: 2px solid #848484;}
+form {background:#897ebd; width: 55%; border: 2px solid #897ebd;}
 label {}
-input[ type="submit"] {width: 60%; background: #fff; position: relative;}
+input[ type="submit"] {margin: 10px ;width: 30%; background: #6C6494; position: relative; border: 2px solid #5E5780; color: #fff;}
+.txtregistro {color: #fff;}
 
-.Contacto {background: #7ebd89; border: 2px solid #7ebd89; overflow:hidden; }
+
+.Contacto {background: #7ebd89; border: 2px solid #7ebd89; overflow:hidden; color: #fff;}
 .Contacto img {float: left;}
 .Contacto ul li {overflow:hidden; max-width: 100%;}
 
