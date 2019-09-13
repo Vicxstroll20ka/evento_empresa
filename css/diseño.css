@@ -53,14 +53,13 @@ input[ type="button"] {background: #6C6494;}
 
 .Exp {background: #7ebd89; border: 2px solid #D2CBCB;}
 .expositores {background: #6C6494; display: grid; grid-template-columns: auto auto auto;}
-.datos, .expo{overflow:hidden; float:left; max-width: 50%;}
+.datos, .expo{overflow:hidden; float:left; max-width: 100%;}
 div img {border: 2px solid #DBDBDD;}
 div .TiEx {color: #fff;}
 
-form {background:#897ebd; width: 55%; border: 2px solid #897ebd;}
 label {}
 input[ type="submit"] {margin: 10px ;width: 30%; background: #6C6494; position: relative; border: 2px solid #5E5780; color: #fff;}
-.txtregistro {color: #fff;}
+.txtregistro {background:#897ebd; color: #fff; width: 55%; border: 2px solid #897ebd;}
 
 
 .Contacto {background: #7ebd89; border: 2px solid #7ebd89; overflow:hidden; color: #fff;}

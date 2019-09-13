@@ -1,0 +1,57 @@
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/diseñoRegistro.css" />
+    <title>Registro</title>
+  </head>
+
+  <body>
+    <div class="Titulo">
+      <h1>Registro</h1>
+    </div>
+
+    <div class="Datos">
+      <div class="Centrar">
+        <div id="NombreAlumno">
+          <label for="Alumnos">Nombre:</label>
+          <input type="text" name="Nombre" maxlength="255">
+        </div>
+
+        <div id="Email">
+          <label for="correo">Correo electrónico: </label>
+          <input type="text" name="CorreoElectronico" maxlength="100">
+        </div>
+
+        <div id="Sexo">
+          <label for="Sexo">sexo: </label>
+          <form class="radiobutton" action="">
+            <input type="radio" name="gender" value="male">Hombre.<br>
+            <input type="radio" name="gender" value="female">Mujer.<br>
+          </form>
+        </div>
+
+        <div id="Unison">
+          <label for="Universidad">Eres alumno de la unison?</label>
+          <input type="checkbox" onclick="mostrarPreguntas(checked)">
+        </div>
+
+        <div id="Unilocal">
+          <label for="Universidad">Num. expediente: </label>
+          <input type="text" id="Expediente" maxlength="9">
+        </div>
+
+        <div id="UniExterna">
+          <label for="Universidad">Universidad: </label>
+          <input type="text" id="Nom. Universidad" maxlength="100">
+        </div>
+        <input type="submit" value="Enviar">
+      </div>
+    </div>
+
+
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="scriptsRegistro.js"></script>
+  </body>
+
+</html>
