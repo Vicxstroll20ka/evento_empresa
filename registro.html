@@ -12,51 +12,55 @@
     </div>
 
     <div class="Datos">
-      <div class="Centrar">
-        <div class="eventoAsistir">
-          <label for="Alumnos">Evento:</label>
-            <form action="">
-              <select>
-                <option type="volvo">volvo</option>
-                <option type="saab">saab</option>
-              </select>
+      <div class="CentrarXd">
+        <div class="Centrar">
+
+          <div class="eventoAsistir" >
+            <label for="Alumnos">Evento:</label>
+              <form action="">
+                <select size=>
+                  <option type="volvo">volvo</option>
+                  <option type="saab">saab</option>
+                </select>
+              </form>
+          </div>
+
+          <div id="NombreAlumno">
+            <label for="Alumnos">Nombre:</label>
+            <input type="text" name="Nombre" maxlength="255">
+          </div>
+
+          <div id="Email">
+            <label for="correo">Correo electrónico: </label>
+            <input type="text" name="CorreoElectronico" maxlength="100">
+          </div>
+
+          <div id="Sexo">
+            <label for="Sexo">sexo: </label>
+            <form class="radiobutton" action="">
+              <input type="radio" name="gender" value="male">Hombre.<br>
+              <input type="radio" name="gender" value="female">Mujer.<br>
             </form>
-        </div>
+          </div>
 
-        <div id="NombreAlumno">
-          <label for="Alumnos">Nombre:</label>
-          <input type="text" name="Nombre" maxlength="255">
-        </div>
+          <div id="Unison">
+            <label for="Universidad">Eres alumno de la unison?</label>
+            <input type="checkbox" onclick="mostrarPreguntas(checked)">
+          </div>
 
-        <div id="Email">
-          <label for="correo">Correo electrónico: </label>
-          <input type="text" name="CorreoElectronico" maxlength="100">
-        </div>
+          <div id="Unilocal">
+            <label for="Universidad">Num. expediente: </label>
+            <input type="text" id="Expediente" maxlength="9">
+          </div>
 
-        <div id="Sexo">
-          <label for="Sexo">sexo: </label>
-          <form class="radiobutton" action="">
-            <input type="radio" name="gender" value="male">Hombre.<br>
-            <input type="radio" name="gender" value="female">Mujer.<br>
-          </form>
+          <div id="UniExterna">
+            <label for="Universidad">Universidad: </label>
+            <input type="text" id="Nom. Universidad" maxlength="100">
+          </div>
+          <input type="submit" value="Enviar">
         </div>
-
-        <div id="Unison">
-          <label for="Universidad">Eres alumno de la unison?</label>
-          <input type="checkbox" onclick="mostrarPreguntas(checked)">
-        </div>
-
-        <div id="Unilocal">
-          <label for="Universidad">Num. expediente: </label>
-          <input type="text" id="Expediente" maxlength="9">
-        </div>
-
-        <div id="UniExterna">
-          <label for="Universidad">Universidad: </label>
-          <input type="text" id="Nom. Universidad" maxlength="100">
-        </div>
-        <input type="submit" value="Enviar">
       </div>
+
     </div>
 
 
