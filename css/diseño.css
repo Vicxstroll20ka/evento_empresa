@@ -30,14 +30,15 @@ nav ul li a {padding:20px 20px; display:block; text-decoration: none; color:#fff
 
 .ImagenEvento {width: 100%; height: auto;}
 .fecha {background:#7ebd89; color:#fff; margin:5% 0px; border:2px solid #fff; padding:5% 10%; text-align:center; font-family:'Montserrat';}
-.A {background:#7ebd89; font-family: 'Montserrat'; color:#fff;}
-.B {background:#7ebd89; font-family: 'Montserrat'; color:#fff;}
-.C {background:#7ebd89; font-family: 'Montserrat'; color:#fff;}
+.A {background:#7ebd89; font-family: 'Montserrat'; color:#fff; border:2px solid #fff;}
+.B {background:#7ebd89; font-family: 'Montserrat'; color:#fff; border:2px solid #fff;}
+.C {background:#7ebd89; font-family: 'Montserrat'; color:#fff; border:2px solid #fff;}
 
 .caja2 {display: grid; grid-template-columns:auto auto auto; justify-content:space-evenly;}
 .caja2 img {border:2px solid grey; width:80%; box-shadow:0px 0px 10px black; margin-left:10%; margin-right:10%;}
-.caja2 .a {align-self: center}
+.caja2 .a {align-self: center; border:0px}
 .caja2 p {text-align:center; align-self: end;}
+.HoraTaller{text-align: center;background: #436449; font-size: 175%}
 
 .caja3 {background:#897ebd; color:#fff; border:2px solid #fff;}
 .caja3 h1 {text-align:center; border:2px solid #fff;}
@@ -62,17 +63,19 @@ div .TiEx {color: #fff;}
 
 label {}
 input[ type="submit"] {margin: 10px ;width: 30%; background: #6C6494; position: relative; border: 2px solid #5E5780; color: #fff;}
+input[ type= checkbox] {width: 17px; height: 17px}
 .txtregistro {background:#897ebd; color: #fff; width: 55%; border: 2px solid #897ebd;}
 
 
-.Contacto {background: #7ebd89; border: 2px solid #7ebd89; overflow:hidden; color: #fff;}
+.Contacto {background: #7ebd89; border: 2px solid #7ebd89; overflow:hidden; color: #fff; border:2px solid #fff;}
 .Contacto img {float: left; width: 15%}
-.Contacto ul li {overflow:hidden; max-width: 100%;}
+.Contacto ul li {overflow:hidden; max-width: 100%; font-size: 115%}
+
 
 h1 {text-align:center;}
 
 div, h1 {padding:10px 10px;}
 
-.footer {background: #7ebd89; color: #fff;}
+.footer {background: black; color: #fff;}
 
 p {margin:10px 10px;}
